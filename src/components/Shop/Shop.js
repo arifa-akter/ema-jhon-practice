@@ -1,15 +1,18 @@
-import React, { useEffect, useState } from 'react';
+// import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
+import useProduct from '../../hook/useProduct';
 import Cart from '../Cart/Cart';
 import Product from '../Product/Product';
 import './Shop.css'
 const Shop = () => {
-    const[products , setProduct] = useState([])
+    // const[products , setProduct] = useState([])
+    const[products]=useProduct()
     const [cart , setSelectItem]= useState([])
-    useEffect(()=>{
-        fetch('products.json')
-        .then(response =>response.json())
-        .then(data =>setProduct(data))
-    },[])
+    // useEffect(()=>{
+    //     fetch('products.json')
+    //     .then(response =>response.json())
+    //     .then(data =>setProduct(data))
+    // },[])
 
     const addToCard =(product)=>{
        const allCart = [...cart, product]
