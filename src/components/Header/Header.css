@@ -1,0 +1,31 @@
+a{
+    text-decoration: none; 
+}
+.header-container{
+    width:1170px;
+    margin: 0 auto;
+   
+}
+.background{
+    background:#1C2B35;
+    position:static;
+    top:0;
+    left:0;
+}
+.menu-ber{
+    display:flex;
+    align-items: center;
+    height: 70px;
+}
+.logo{
+    width: 20%;
+}
+.menu {
+    width: 80%;
+    text-align: right;
+}
+.menu a{
+    padding:10px;
+    color:#ffffff;
+}
+

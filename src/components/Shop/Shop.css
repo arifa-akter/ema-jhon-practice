@@ -1,0 +1,33 @@
+ul,ol{
+    list-style-type: none;
+    margin: 0;
+}
+.shop{
+    display: flex;
+    width:1358px;
+    margin:0 auto ;
+}
+
+.product{
+    width:1058px;
+    margin-top: 100px;
+}
+.container{
+    margin:0 auto;
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+/* ================ cart part start ============ */
+.cart{
+    width:300px;
+    background: #FF99004D;
+    
+}
+.cart-info{
+    padding: 0 35px;
+    text-transform: capitalize;
+    position: sticky;
+    top: 0;
+}
